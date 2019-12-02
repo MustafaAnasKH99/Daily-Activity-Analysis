@@ -4,6 +4,8 @@ Python functions that reads the log of my daily computer activity and analyze it
 
 **Check issues for the progress tracking**.
 
+Keylogger's daily average result:
+![Keylogger_graph](Keylogger_1.png)
 
 -----
 Feel free to follow me.
