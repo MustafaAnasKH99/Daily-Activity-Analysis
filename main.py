@@ -37,3 +37,12 @@ plt.bar(range(len(new_dict)), list(new_dict.values()))
 plt.xticks(range(len(new_dict)), list(new_dict.keys()))
 
 plt.show()
+
+new_log_file = open('new-log.txt', 'w+')
+for line in counted:
+    if line != '\n':
+        new_log_file.write(str(line))  
+        new_log_file.write("          ")  
+        new_log_file.write(str(counted[line]))
+        new_log_file.write('\n')
+        new_log_file.write('\n')
